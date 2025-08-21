@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        body {
+            font-family: 'Segoe UI', sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+            color: #333;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .profile-img {
+            
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 15px;
+            border: 3px solid #3a86ff;
+        }
+        
+        h1 {
+            color: #38393a;
+            margin-bottom: 5px;
+        }
+        
+        .tagline {
+            color: #a82929;
+            margin-bottom: 20px;
+        }
+        
+        section {
+            margin-bottom: 30px;
+        }
+        
+        h2 {
+            color: #081c3b;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+        
+        a {
+            color: #2a75e6;
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .social-links {
+            margin-top: 20px;
+        }
+        
+        .social-links a {
+            margin: 0 10px;
+            font-size: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="foto aji.jpg" alt="Foto Profil" class="profile-img">
+        <h1>RACHA AJIMAS SAPUTRO</h1>
+        <p class="tagline"></p>
+    </header>
+    
+    <section id="about">
+        <h2>Tentang Saya</h2>
+        <p>Halo! Saya Racha Ajimas Saputro <div racha="" ajimas="" saputro=""></div> seorang pelajar dengan passion di bidang tertentu. Saya suka aktivitas terkait pekerjaan.</p>
+    </section>
+    
+    <section id="contact">
+        <h2>Kontak</h2>
+        <p>Email: <a href="mailto:email@contoh.com">saputroaji422@gmail.com</a></p>
+        <p>Telepon: +62 123-4567-890</p>
+        
+        <div class="social-links">
+            <a href="#"><i>LinkedIn</i></a>
+            <a href="#"><i>Instagram</i></a>
+            <a href="#"><i>GitHub</i></a>
+        </div>
+    </section>
+    
+    <footer>
+        <p>© <span id="year"></span> Nama Anda</p>
+    </footer>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
